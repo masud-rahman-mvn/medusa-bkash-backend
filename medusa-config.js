@@ -37,12 +37,12 @@ const plugins = [
   `medusa-fulfillment-manual`,
   `medusa-payment-manual`,
 
-  // {
-  //   resolve: `medusa-payment-bkash`,
-  //   options: {
-  //     enableUI: true,
-  //   },
-  // },
+  {
+    resolve: `medusa-payment-bkash`,
+    options: {
+      enableUI: true,
+    },
+  },
   {
     resolve: `medusa-payment-stripe`,
     options: {
